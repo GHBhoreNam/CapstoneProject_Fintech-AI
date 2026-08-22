@@ -1,6 +1,6 @@
 # CapstoneProject_Fintech-AI
 
-. Headline Layer Interpretation
+1. Headline Layer Interpretation
 
 Total GMV represents the overall payment volume processed during the analysis period. Success rate indicates the percentage of transactions that were successfully captured and settled. The reconciliation match rate measures operational data quality by verifying whether transactions agree across both the ledger and gateway exports. The chargeback ratio provides an indicator of dispute activity and fraud risk across the platform.
 
