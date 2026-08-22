@@ -281,4 +281,4 @@ merchant_stats = (
 
 merchant_stats["chargeback_ratio"] = (
     merchant_stats["chargebacks"]
-    / merchant_stats["transaction
+    / merchant_stats["transaction"])
