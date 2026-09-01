@@ -35,11 +35,4 @@ def generate_recommendation_text(
 
     return call_llm(prompt)
 
-recommendation_text = generate_recommendation_text(
-    thought["investor_id"],
-    thought["risk_tolerance"].title(),
-    list(thought["allocation"].keys()),
-    observation["portfolio_expected_return"],
-    observation["portfolio_std_dev"],
-)
 
