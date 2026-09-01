@@ -43,4 +43,3 @@ recommendation_text = generate_recommendation_text(
     observation["portfolio_std_dev"],
 )
 
-"recommendation": recommendation_text,
