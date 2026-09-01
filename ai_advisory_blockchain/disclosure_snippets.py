@@ -11,4 +11,16 @@ DISCLOSURE_SNIPPETS = [
     "expanded capital expenditure plan for the coming year.",
     "doc_06: A recent regulatory notice has been received regarding data-localization "
     "compliance; the company is in active dialogue with the regulator.",
+    snippet1,
+    snippet2,
+    snippet3,
+    snippet4,
+    snippet5,
+    snippet6,
 ]
+
+for i, snippet in enumerate(DISCLOSURE_SNIPPETS, start=1):
+    result = extract_signals(snippet)
+
+    print(f"\nSnippet {i}")
+    print(result)
