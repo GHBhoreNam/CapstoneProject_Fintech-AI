@@ -100,17 +100,4 @@ def extract_signals(snippet: str) -> dict:
     # Fallback to deterministic graded baseline
     return _mock_extract_signals(snippet)
 
-DISCLOSURE_SNIPPETS = [
-    snippet1,
-    snippet2,
-    snippet3,
-    snippet4,
-    snippet5,
-    snippet6,
-]
 
-for i, snippet in enumerate(DISCLOSURE_SNIPPETS, start=1):
-    result = extract_signals(snippet)
-
-    print(f"\nSnippet {i}")
-    print(result)
